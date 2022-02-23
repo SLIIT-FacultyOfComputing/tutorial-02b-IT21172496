@@ -25,6 +25,7 @@ int main()
     std::cout<<"Enter a length in cm :";
     std::cin>>cm;
     inches = cm / 2.54;
-    std::cout<<"Length in inches is %f \n"<<std::endl<<inches;
+    std::cout<<"Length in inches is %.f \n" 
+    <<std::endl<<inches;
     return 0;
 }  
